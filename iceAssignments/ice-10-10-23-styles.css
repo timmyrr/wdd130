@@ -1,0 +1,14 @@
+.bottom img {
+    width: 20%;
+    border-radius: 50%;
+    border: 10px solid rgb(73, 73, 73);
+}
+.bottom {
+    text-align: center;
+}
+#graphic {
+    margin: 0 5%;
+}
+body {
+    background-color: grey; 
+}
