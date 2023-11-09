@@ -1,0 +1,46 @@
+body {
+    background-color: black;
+}
+.card {
+    width: 250px;
+    height: 500px;
+    margin: 0 auto;
+    background-color: white;
+    border-radius: 25px 25px 25px 25px;
+}
+.headerimage {
+    width: 100%;
+    border-radius: 25px 25px 0px 0px;
+}
+.awesomearticle {
+    margin-left: 10%;
+    margin-right: 10%;
+    text-align: center;
+    color: rgb(63, 63, 63);
+}
+h4 {
+    text-align: center;
+    color: darkblue;
+}
+h1 {
+    text-align: center;
+    color: black;
+}
+.foot {
+    display: grid;
+    background-color: rgb(107, 107, 253);
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 40px 40px;
+    border-radius: 0px 0px 25px 25px;
+    color: white;
+    
+    text-align: center;
+}
+.par1, .par2, .par3 {
+    align-items: end;
+    font-size: larger;
+}
+.par4, .par5, .par6 {
+    align-items: start;
+    font-size: small;
+}
