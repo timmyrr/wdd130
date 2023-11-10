@@ -38,8 +38,8 @@ header {
     opacity: 1;
 }
 nav a:hover {
-    background-color: #444444;
-    color: white;
+    background-color: #C40000;
+    color: rgb(0, 0, 0);
 }
 .book, .join {
     margin-top: 50px;
@@ -183,6 +183,54 @@ nav {
     opacity: 0.6;
     transform: scale(1,1);
 }
+.customer-review {
+    width: 80px;
+    padding-top: 10px;
+}
+
+
+
+.reviews-grid {
+    display: grid;
+    grid-template-rows: repeat(5, 20%);
+    grid-template-columns: repeat(10, 10%);
+    background-color: rgb(255, 255, 255);
+}
+.review-one, .review-two, .review-three {
+    margin: 200px auto;
+    grid-column: 2/10;
+} 
+.review-one { 
+    grid-row: 1/2; 
+}
+.review-two {
+    grid-row: 2/4;
+}
+.review-three {
+    grid-row: 4/5;
+}
+.customer-img:hover {
+    opacity: 0.6;
+    transform: scale(1,1);
+}
+.customer-review {
+    width: 90%;
+}
+.customer-img {
+    border: 10px solid #000000;
+    transition: transform 0.5s;
+    box-shadow: 5px 5px 10px #6f7364;
+}
+.msg h3 {
+    font-family: monospace, Tahoma, sans-serif;
+    color: rgb(255, 255, 255);
+}
+
+
+
+
+
+
 @media screen and (max-width: 900px) {
     #hero, .home-grid {
         display: block;
