@@ -196,6 +196,11 @@ nav {
     grid-template-columns: repeat(10, 10%);
     background-color: rgb(255, 255, 255);
 }
+.customer-img {
+    border: 10px solid #000000;
+    transition: transform 0.5s;
+    box-shadow: 5px 5px 10px #6f7364;
+}
 .review-one, .review-two, .review-three {
     margin: 200px auto;
     grid-column: 2/10;
@@ -216,11 +221,7 @@ nav {
 .customer-review {
     width: 90%;
 }
-.customer-img {
-    border: 10px solid #000000;
-    transition: transform 0.5s;
-    box-shadow: 5px 5px 10px #6f7364;
-}
+
 .msg h3 {
     font-family: monospace, Tahoma, sans-serif;
     color: rgb(255, 255, 255);
