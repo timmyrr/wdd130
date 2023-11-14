@@ -202,17 +202,17 @@ nav {
     box-shadow: 5px 5px 10px #6f7364;
 }
 .review-one, .review-two, .review-three {
-    margin: 200px auto;
+    margin: 0 auto;
     grid-column: 2/10;
 } 
 .review-one { 
     grid-row: 1/2; 
 }
 .review-two {
-    grid-row: 2/4;
+    grid-row: 3/4;
 }
 .review-three {
-    grid-row: 4/5;
+    grid-row: 5/6;
 }
 .customer-img:hover {
     opacity: 0.6;
