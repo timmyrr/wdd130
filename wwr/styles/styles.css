@@ -3,7 +3,6 @@
     font-family: "Cedarville Cursive", Georgia, serif;
     font-family: monospace, Tahoma, sans-serif;
 }
-
 #content {
     max-width: 1600px;
     margin: 0 auto;
@@ -109,6 +108,7 @@ footer p {
 footer p a:hover{
     text-decoration: underline;
 }
+
 .mountains {
     margin: 100px 0;
     width: 100%;
@@ -187,9 +187,6 @@ nav {
     width: 80px;
     padding-top: 10px;
 }
-
-
-
 .reviews-grid {
     display: grid;
     grid-template-rows: repeat(5, 20%);
